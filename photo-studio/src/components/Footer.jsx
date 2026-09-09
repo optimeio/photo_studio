@@ -68,12 +68,12 @@ const Footer = () => {
             <Link to="/" className="inline-flex items-center gap-4 mb-8 group">
               <img 
                 src="/logo.png" 
-                alt="Pixelbees Photography Logo" 
+                alt="Lumina Studio Logo" 
                 className="w-auto h-12 md:h-16 object-contain transition-transform duration-500 group-hover:scale-105"
               />
               <span className="font-serif uppercase tracking-[0.15em] font-bold text-[#FFFDF8] text-2xl md:text-3xl">
-                Pixelbees
-                <span className="block text-[12px] tracking-[0.3em] font-sans font-normal text-[#C5A059] mt-1">Photography</span>
+                Lumina
+                <span className="block text-[12px] tracking-[0.3em] font-sans font-normal text-[#C5A059] mt-1">Studio</span>
               </span>
             </Link>
             <p className="text-[#FFFDF8]/60 text-base font-light leading-relaxed mb-8 max-w-sm">
@@ -104,7 +104,7 @@ const Footer = () => {
             <ul className="flex flex-col gap-5">
               <li className="flex items-start gap-4">
                 <MapPin className="w-5 h-5 text-[#C5A059] shrink-0 mt-0.5" />
-                <span className="text-[#FFFDF8]/70 text-base leading-relaxed">123 Photography Studio,<br/>Salem, Tamil Nadu 636001</span>
+                <span className="text-[#FFFDF8]/70 text-base leading-relaxed">42 Studio Boulevard,<br/>Suite 100, Creative District</span>
               </li>
               <li className="flex items-center gap-4">
                 <Phone className="w-5 h-5 text-[#C5A059] shrink-0" />
@@ -112,7 +112,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-4">
                 <Mail className="w-5 h-5 text-[#C5A059] shrink-0" />
-                <a href="mailto:hello@pixelbees.com" className="text-[#FFFDF8]/70 hover:text-[#C5A059] text-base transition-colors break-all">hello@pixelbees.com</a>
+                <a href="mailto:contact@luminastudio.com" className="text-[#FFFDF8]/70 hover:text-[#C5A059] text-base transition-colors break-all">contact@luminastudio.com</a>
               </li>
             </ul>
           </div>
@@ -122,7 +122,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="footer-col opacity-0 border-t border-[#FFFDF8]/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[#FFFDF8]/40 text-xs text-center md:text-left tracking-wide">
-            &copy; {new Date().getFullYear()} Pixelbees Photography. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Lumina Studio. All Rights Reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-[#FFFDF8]/40 hover:text-[#FFFDF8] text-xs transition-colors tracking-wide">Privacy Policy</a>

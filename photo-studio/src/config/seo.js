@@ -1,25 +1,25 @@
 export const SEO_CONFIG = {
-  BUSINESS_NAME: "PixelBees Photography",
-  WEBSITE_NAME: "PixelBees Photography",
-  WEBSITE_URL: "[INSERT_ACTUAL_DOMAIN_HERE]", // e.g. https://www.pixelbees.in
-  BUSINESS_DESCRIPTION: "PixelBees Photography is a professional photography studio serving clients in Salem, Tamil Nadu, with services including wedding, candid, portrait and event photography.",
-  PHONE: "[INSERT_PHONE_HERE]", // e.g. +91 98765 43210
-  EMAIL: "[INSERT_EMAIL_HERE]", // e.g. hello@pixelbees.in
-  ADDRESS: "[INSERT_STREET_ADDRESS_HERE]",
-  CITY: "Salem",
-  STATE: "Tamil Nadu",
+  BUSINESS_NAME: "Vista Studio",
+  WEBSITE_NAME: "Vista Photography Studio",
+  WEBSITE_URL: "https://example.com",
+  BUSINESS_DESCRIPTION: "Vista Studio is a premier creative photography studio offering luxury wedding, candid, portrait, pre-wedding and event photography.",
+  PHONE: "+91 98765 43210",
+  EMAIL: "hello@vistastudio.com",
+  ADDRESS: "42 Studio Boulevard, Creative District",
+  CITY: "Metropolis",
+  STATE: "State",
   COUNTRY: "India",
-  POSTAL_CODE: "[INSERT_PINCODE_HERE]",
-  LATITUDE: "[INSERT_LATITUDE_HERE]",
-  LONGITUDE: "[INSERT_LONGITUDE_HERE]",
-  OPENING_HOURS: "Mo-Su 09:00-20:00", // Update if different
+  POSTAL_CODE: "600001",
+  LATITUDE: "13.0827",
+  LONGITUDE: "80.2707",
+  OPENING_HOURS: "Mo-Su 09:00-20:00",
   SOCIAL_PROFILES: [
-    "[INSERT_INSTAGRAM_URL_HERE]",
-    "[INSERT_FACEBOOK_URL_HERE]",
-    "[INSERT_WHATSAPP_URL_HERE]"
+    "https://instagram.com",
+    "https://facebook.com",
+    "https://wa.me/919876543210"
   ],
-  LOGO_URL: "[INSERT_ACTUAL_DOMAIN_HERE]/logo.png",
-  PRIMARY_IMAGE: "[INSERT_ACTUAL_DOMAIN_HERE]/images/wedding/wedding-32.webp",
+  LOGO_URL: "/logo.png",
+  PRIMARY_IMAGE: "/images/wedding/wedding-80.webp",
   SERVICES: [
     "Wedding Photography",
     "Candid Photography",
@@ -28,6 +28,6 @@ export const SEO_CONFIG = {
     "Event Photography"
   ],
   SERVICE_AREAS: [
-    "Salem, Tamil Nadu"
+    "Metro Region & Worldwide"
   ]
 };

@@ -139,12 +139,12 @@ app.patch('/api/bookings/:id/confirm', verifyToken, async (req, res) => {
       <body>
         <div class="container">
           <div class="header">
-            <h1>Pixelbees Photography</h1>
+            <h1>Lumina Studio</h1>
             <p>YOUR SESSION IS CONFIRMED</p>
           </div>
           <div class="body">
             <h2>Dear ${booking.firstName},</h2>
-            <p>We are delighted to confirm your photography session with <strong>Pixelbees Photography</strong>. We look forward to creating something beautiful together!</p>
+            <p>We are delighted to confirm your photography session with <strong>Lumina Studio</strong>. We look forward to creating something beautiful together!</p>
             <div class="detail-row">
               <div class="detail-label">Session</div>
               <div class="detail-value">${booking.sessionType}</div>
@@ -164,10 +164,10 @@ app.patch('/api/bookings/:id/confirm', verifyToken, async (req, res) => {
             ${booking.notes ? `<div class="detail-row"><div class="detail-label">Notes</div><div class="detail-value">${booking.notes}</div></div>` : ''}
             <p style="margin-top: 24px;">Our team will reach out to you shortly to discuss finer details such as the shoot location, styling, and timeline. If you have any questions in the meantime, simply reply to this email.</p>
             <p>We can't wait to work with you!</p>
-            <p style="margin-top: 24px;"><em>Warm regards,<br/><strong>The Pixelbees Team</strong></em></p>
+            <p style="margin-top: 24px;"><em>Warm regards,<br/><strong>The Lumina Studio Team</strong></em></p>
           </div>
           <div class="footer">
-            <p>&copy; ${new Date().getFullYear()} Pixelbees Photography. All rights reserved.</p>
+            <p>&copy; ${new Date().getFullYear()} Lumina Studio. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -178,7 +178,7 @@ app.patch('/api/bookings/:id/confirm', verifyToken, async (req, res) => {
     await resend.emails.send({
       from: 'onboarding@resend.dev',
       to: booking.email,
-      subject: `✨ Your Booking is Confirmed – Pixelbees Photography`,
+      subject: `✨ Your Booking is Confirmed – Lumina Studio`,
       html: confirmationHtml
     });
 

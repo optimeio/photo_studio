@@ -49,7 +49,7 @@ const AdminLogin = () => {
           <div className="w-16 h-16 rounded-full bg-[#12100E] border border-white/[0.05] shadow-[0_0_30px_rgba(197,160,89,0.1)] flex items-center justify-center mb-6 transition-all duration-700 group-hover:shadow-[0_0_40px_rgba(197,160,89,0.2)] group-hover:border-[#C5A059]/30">
             <Camera className="w-6 h-6 text-[#C5A059] transition-transform duration-700 group-hover:scale-110" />
           </div>
-          <h1 className="font-serif text-3xl font-bold tracking-[0.2em] uppercase text-[#FFFDF8] mb-2 drop-shadow-md">Pixelbees</h1>
+          <h1 className="font-serif text-3xl font-bold tracking-[0.2em] uppercase text-[#FFFDF8] mb-2 drop-shadow-md">Lumina Studio</h1>
           <div className="flex items-center gap-4 w-full justify-center opacity-70">
             <div className="h-[1px] w-8 bg-gradient-to-r from-transparent to-[#C5A059]"></div>
             <span className="text-[9px] tracking-[0.4em] font-sans font-bold text-[#C5A059]">SECURE PORTAL</span>
@@ -122,7 +122,7 @@ const AdminLogin = () => {
           <div className="bg-white/[0.02] border border-white/[0.05] rounded-lg px-6 py-3 backdrop-blur-sm shadow-lg text-center">
             <p className="text-[10px] text-[#C5A059] uppercase tracking-[0.2em] font-bold mb-1">Demo Credentials</p>
             <p className="text-xs text-[#FFFDF8]/70">Username: <span className="text-[#FFFDF8] font-bold tracking-wider">admin</span></p>
-            <p className="text-xs text-[#FFFDF8]/70">Password: <span className="text-[#FFFDF8] font-bold tracking-wider">pixelbees2026</span></p>
+            <p className="text-xs text-[#FFFDF8]/70">Password: <span className="text-[#FFFDF8] font-bold tracking-wider">demo2026</span></p>
           </div>
         </div>
 

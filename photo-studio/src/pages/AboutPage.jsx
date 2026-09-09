@@ -11,7 +11,7 @@ const AboutPage = () => {
 
   return (
     <div className="min-h-screen bg-[#FFFDF8] selection:bg-[#C5A059] selection:text-[#12100E] flex flex-col">
-      <SEO title="About Us - Pixelbees Photography" description="Learn more about Pixelbees Photography studio in Salem and our passion for storytelling." path="/about" />
+      <SEO title="About Us - Lumina Studio" description="Learn more about Lumina Studio and our passion for storytelling." path="/about" />
       <Navbar />
       <div className="flex-grow pt-24">
         <About />

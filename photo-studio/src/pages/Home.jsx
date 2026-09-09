@@ -14,7 +14,7 @@ const Home = () => {
       <div className="">
         <Navbar />
         <main>
-          <SEO title="Professional Photography Studio in Salem" description="PixelBees Photography is a professional photography studio in Salem, Tamil Nadu, offering wedding, candid, portrait, pre-wedding and event photography." path="/" />
+          <SEO title="Luxury Photography Studio" description="Lumina Studio is a premier creative photography studio offering luxury wedding, candid, portrait, pre-wedding and event photography." path="/" />
           <Hero />
           <PricingPackages onBook={(category) => setBookingCategory(category)} />
           <BookingSection selectedCategory={bookingCategory} onCategoryChange={setBookingCategory} />

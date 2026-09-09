@@ -71,7 +71,7 @@ const BookingSection = ({ selectedCategory = 'wedding', onCategoryChange }) => {
           <div className="absolute inset-0 bg-[#12100E]/20"></div>
           <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-8 text-[#FFFDF8]">
             <h3 className="font-serif text-2xl md:text-3xl font-bold mb-2 drop-shadow-md">Let's Create Magic.</h3>
-            <p className="text-[10px] md:text-xs font-light tracking-widest uppercase opacity-90 drop-shadow-md">Pixelbees Studio</p>
+            <p className="text-[10px] md:text-xs font-light tracking-widest uppercase opacity-90 drop-shadow-md">Lumina Studio</p>
           </div>
         </div>
 

@@ -11,7 +11,7 @@ const ContactPage = () => {
 
   return (
     <div className="min-h-screen bg-[#FFFDF8] selection:bg-[#C5A059] selection:text-[#12100E] flex flex-col">
-      <SEO title="Contact Us | Book a Photography Session" description="Get in touch with PixelBees Photography in Salem to book your next wedding, portrait, or event photography session." path="/contact" />
+      <SEO title="Contact Us | Book a Photography Session" description="Get in touch with Lumina Studio to book your next wedding, portrait, or event photography session." path="/contact" />
       <Navbar />
       <div className="flex-grow">
         <Contact />

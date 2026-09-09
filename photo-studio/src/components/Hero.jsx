@@ -90,7 +90,7 @@ const Hero = () => {
         {/* Main Image */}
         <img 
           ref={bgRef}
-          src="/images/portraits/portraits-8.webp" 
+          src="/images/wedding/wedding-85.webp" 
           alt="Luxury Cinematic Wedding Photography" 
           className="absolute inset-0 w-full h-full object-cover origin-center object-[75%_top] md:object-center"
           style={{ opacity: 1, scale: 1.08 }}
@@ -114,7 +114,7 @@ const Hero = () => {
           <div className="hero-eyebrow flex items-center gap-4 mb-4 opacity-0">
             <div className="hidden lg:block w-12 h-[1px] bg-[#C5A059]"></div>
             <p className="font-sans text-[10px] md:text-xs tracking-[0.3em] uppercase text-[#FFFDF8] font-bold drop-shadow-md">
-              Pixelbees Photography · Emotion through Photos
+              Vista Studio · Emotion through Photos
             </p>
           </div>
           

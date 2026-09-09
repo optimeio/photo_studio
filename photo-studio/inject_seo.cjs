@@ -3,32 +3,32 @@ const fs = require('fs');
 const pages = [
   {
     file: 'src/pages/Home.jsx',
-    title: 'Professional Photography Studio in Salem',
-    desc: 'PixelBees Photography is a professional photography studio in Salem, Tamil Nadu, offering wedding, candid, portrait, pre-wedding and event photography.',
+    title: 'Luxury Photography Studio',
+    desc: 'Lumina Studio is a premier creative photography studio offering wedding, candid, portrait, pre-wedding and event photography.',
     path: '/'
   },
   {
     file: 'src/pages/ServicesPage.jsx',
-    title: 'Photography Services in Salem',
-    desc: 'Explore our premium photography services in Salem including Wedding, Candid, Portrait, and Event photography.',
+    title: 'Photography Services',
+    desc: 'Explore our premium photography services including Wedding, Candid, Portrait, and Event photography.',
     path: '/services'
   },
   {
     file: 'src/pages/PortfolioPage.jsx',
     title: 'Photography Portfolio',
-    desc: 'View the photography portfolio of PixelBees Photography, featuring our best wedding, candid, and portrait shots.',
+    desc: 'View the photography portfolio of Lumina Studio, featuring our best wedding, candid, and portrait shots.',
     path: '/portfolio'
   },
   {
     file: 'src/pages/JournalPage.jsx',
     title: 'Photography Journal & Stories',
-    desc: 'Read stories, tips, and behind-the-scenes insights from our latest photography sessions in Salem.',
+    desc: 'Read stories, tips, and behind-the-scenes insights from our latest photography sessions.',
     path: '/journal'
   },
   {
     file: 'src/pages/ContactPage.jsx',
     title: 'Contact Us | Book a Photography Session',
-    desc: 'Get in touch with PixelBees Photography in Salem to book your next wedding, portrait, or event photography session.',
+    desc: 'Get in touch with Lumina Studio to book your next wedding, portrait, or event photography session.',
     path: '/contact'
   }
 ];

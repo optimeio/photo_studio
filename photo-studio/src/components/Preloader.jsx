@@ -3,8 +3,8 @@ import gsap from 'gsap';
 
 // A large pool of known images to randomly select from
 const imagePool = [
-  ...Array.from({length: 34}, (_, i) => `/images/wedding/wedding-${i+1}.webp`),
-  ...Array.from({length: 12}, (_, i) => `/images/portraits/portraits-${i+1}.webp`)
+  ...Array.from({length: 55}, (_, i) => `/images/wedding/wedding-${i+80}.webp`),
+  ...Array.from({length: 20}, (_, i) => `/images/portraits/portraits-${i+90}.webp`)
 ];
 
 const getRandomImages = (count) => {
@@ -148,13 +148,13 @@ const Preloader = ({ onComplete }) => {
           ref={textRef}
           className="text-5xl md:text-7xl lg:text-9xl font-serif text-[#FFFDF8] tracking-[0.15em] uppercase drop-shadow-2xl"
         >
-          Pixelbees
+          Vista
         </h1>
         <p 
           ref={subTextRef}
           className="mt-4 text-xs md:text-sm font-sans text-[#C5A059] tracking-[0.4em] uppercase"
         >
-          Photography
+          Studio
         </p>
       </div>
     </div>

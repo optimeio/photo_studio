@@ -105,7 +105,7 @@ const Contact = () => {
                 <MapPin className="text-[#C5A059] w-3 h-3 md:w-4 md:h-4" />
                 <h4 className="text-[9px] md:text-[10px] font-bold text-[#C5A059] uppercase tracking-[0.2em] pt-[2px]">STUDIO</h4>
               </div>
-              <p className="text-[#12100E] font-serif text-sm md:text-2xl mb-1 md:mb-2">Salem · Tamil Nadu</p>
+              <p className="text-[#12100E] font-serif text-sm md:text-2xl mb-1 md:mb-2">Creative District</p>
               <p className="text-[#201D19]/60 font-light italic text-xs md:text-base">Available Worldwide</p>
             </div>
             
@@ -114,7 +114,7 @@ const Contact = () => {
                 <Mail className="text-[#C5A059] w-3 h-3 md:w-4 md:h-4" />
                 <h4 className="text-[9px] md:text-[10px] font-bold text-[#C5A059] uppercase tracking-[0.2em] pt-[2px]">EMAIL</h4>
               </div>
-              <a href="mailto:hello@pixelbees.com" className="text-[#12100E] font-serif text-sm md:text-2xl hover:text-[#C5A059] transition-colors break-all">hello@pixelbees.com</a>
+              <a href="mailto:contact@luminastudio.com" className="text-[#12100E] font-serif text-sm md:text-2xl hover:text-[#C5A059] transition-colors break-all">contact@luminastudio.com</a>
             </div>
             
             <div className="sidebar-info">
@@ -122,7 +122,7 @@ const Contact = () => {
                 <Phone className="text-[#C5A059] w-3 h-3 md:w-4 md:h-4" />
                 <h4 className="text-[9px] md:text-[10px] font-bold text-[#C5A059] uppercase tracking-[0.2em] pt-[2px]">PHONE</h4>
               </div>
-              <p className="text-[#12100E] font-serif text-sm md:text-2xl">+91 XXXXX XXXXX</p>
+              <p className="text-[#12100E] font-serif text-sm md:text-2xl">+91 98765 43210</p>
             </div>
             
             <div className="sidebar-info">
@@ -130,7 +130,7 @@ const Contact = () => {
                 <MessageCircle className="text-[#C5A059] w-3 h-3 md:w-4 md:h-4" />
                 <h4 className="text-[9px] md:text-[10px] font-bold text-[#C5A059] uppercase tracking-[0.2em] pt-[2px]">WHATSAPP</h4>
               </div>
-              <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="text-[#12100E] font-serif text-sm md:text-2xl hover:text-[#C5A059] transition-colors">+91 XXXXX XXXXX</a>
+              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="text-[#12100E] font-serif text-sm md:text-2xl hover:text-[#C5A059] transition-colors">+91 98765 43210</a>
             </div>
             
             <div className="sidebar-info col-span-2 lg:col-span-1">
@@ -138,7 +138,7 @@ const Contact = () => {
                 <InstagramIcon className="text-[#C5A059] w-3 h-3 md:w-4 md:h-4" />
                 <h4 className="text-[9px] md:text-[10px] font-bold text-[#C5A059] uppercase tracking-[0.2em] pt-[2px]">SOCIAL</h4>
               </div>
-              <a href="#" className="text-[#12100E] font-serif text-sm md:text-2xl hover:text-[#C5A059] transition-colors">@pixelbees</a>
+              <a href="#" className="text-[#12100E] font-serif text-sm md:text-2xl hover:text-[#C5A059] transition-colors">@luminastudio_demo</a>
             </div>
           </div>
         </div>

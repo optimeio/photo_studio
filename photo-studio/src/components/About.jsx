@@ -124,8 +124,8 @@ const About = () => {
           <div className="about-image-wrapper relative z-10 overflow-hidden rounded-sm aspect-[3/4] shadow-2xl">
             <img
               ref={imgInnerRef}
-              src="/images/portraits/portraits-11.webp"
-              alt="Pixelbees Photography"
+              src="/images/portraits/portraits-100.webp"
+              alt="Vista Studio"
               className="w-full h-full object-cover"
               style={{ willChange: 'transform' }}
             />
@@ -150,7 +150,7 @@ const About = () => {
           <div className="about-text relative mb-12 pl-6 md:pl-10">
             <Quote className="absolute left-0 top-0 text-[#C5A059] w-6 md:w-8 h-6 md:h-8 opacity-40 -translate-x-2 -translate-y-2" />
             <p className="text-[#201D19]/80 mb-6 leading-relaxed text-lg font-light">
-              At Pixelbees Photography, we believe that photography is more than just taking pictures. It's about freezing genuine feelings, unguarded smiles, and the invisible connections between people.
+              At Vista Studio, we believe that photography is more than just taking pictures. It's about freezing genuine feelings, unguarded smiles, and the invisible connections between people.
             </p>
             <p className="text-[#201D19]/80 mb-6 leading-relaxed text-lg font-light">
               We focus on telling your unique story through an artistic and cinematic lens, ensuring every moment is preserved beautifully for generations to come.
@@ -159,8 +159,8 @@ const About = () => {
             <div className="mt-8 p-5 bg-[#C5A059]/10 border-l-2 border-[#C5A059] rounded-r-sm">
               <h4 className="text-[10px] font-bold tracking-[0.2em] uppercase text-[#12100E] mb-2">Visit Our Studio</h4>
               <p className="text-[#201D19]/80 text-sm font-light leading-relaxed">
-                Pixelbees Photography<br />
-                Salem, Tamil Nadu, India
+                Vista Photography Studio<br />
+                42 Studio Boulevard, Creative District
               </p>
             </div>
           </div>

@@ -98,7 +98,7 @@ const Admin = () => {
             <Camera className="w-4 h-4 text-[#C5A059]" />
           </div>
           <div>
-            <h1 className="font-serif font-bold tracking-[0.2em] text-sm uppercase text-[#FFFDF8]">Pixelbees</h1>
+            <h1 className="font-serif font-bold tracking-[0.2em] text-sm uppercase text-[#FFFDF8]">Lumina Studio</h1>
             <span className="block text-[8px] tracking-[0.3em] font-sans font-normal text-[#C5A059]">ADMIN</span>
           </div>
         </div>
